@@ -4,5 +4,5 @@ Coursera link: [HTML, CSS, and Javascript for Web Developers](https://www.course
 
 ## Contents:
 
-### 1. [Module 2 solution](https://github.com/AP-AZ/JHU_Class/tree/main/Module%202%20Solution/index.html)
+### 1. [Module 2 solution](https://AP-AZ.github.io/JHU_Class/Module%202%20Solution/index.html)
 ### 2. TBD
