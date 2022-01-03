@@ -1,1 +1,117 @@
+/* Base Styles */
 
+* {
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(73, 73, 73);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    clear: both;
+}
+
+.row {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.menu_label {
+    float: right;
+    clear: both;
+    width: 33%;
+    padding: 2px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+}
+
+.menu_item {
+    position: relative;
+    top: 0;
+    background-color: rgb(197, 195, 195);
+    margin: 10px;
+    padding: 25px 10px 10px 10px;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: justify;
+}
+
+div.menu_item > p {
+    padding: 2px;
+    width: 33%;
+    position: absolute;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+    top: 0px;
+    right: -2px;
+}
+
+#chicken_label {
+    background-color: pink;
+    color: rgb(0, 0, 0)
+}
+
+#beef_label {
+    background-color: rgb(206, 49, 75);
+    color: rgb(255, 255, 255)
+}
+
+#sushi_label {
+    background-color: rgb(245, 236, 160);
+    color: rgb(0, 0, 0)
+}
+
+/* Desktop Styles */
+
+@media (min-width: 992px) {
+    .cols_lg_4 {
+        width: 32.33%;
+        margin: .5%;
+        padding: 1%;
+        float: left; 
+    }
+
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cols_md_6 {
+        width: 49%;
+        margin: .5%;
+        padding: 1%;
+        float: left; 
+    }
+    .cols_md_12 {
+        width: 99%;
+        margin: .5%;
+        padding: 1%;
+        float: left; 
+        clear: both;
+    }
+}
+
+/* Mobile Styles */
+
+@media (max-width: 767px) {
+    .cols_sm_12 {
+        width: 99%;
+        margin: .5%;
+        padding: 1%;
+        float: left; 
+    }
+
+}
