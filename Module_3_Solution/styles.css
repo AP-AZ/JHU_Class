@@ -1,1 +1,76 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;  
+}
 
+header {
+    background-color: #6d6c6c;
+    padding: 0px;
+}
+h1 {
+    padding: 0px;
+}
+h2 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#main-content-title {
+    text-align: center;
+    padding: 15px;
+}
+.food-box {
+    background-color: #6d6c6c;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+    height: 800px;
+    position: relative;
+}
+.food-label {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+a.navbar-brand {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.navbar-collapse {
+    text-align: center;
+}
+.navbar-collapse a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.nav-item {
+    border-bottom: 1px rgb(0, 0, 0) solid;
+    background-color: rgb(255, 255, 255)
+}
+
+#back-to-top {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+#back-to-top a {
+    color: black;
+}
+#back-to-top a:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    padding-right: 10px;
+    padding-top: 10px;
+}
