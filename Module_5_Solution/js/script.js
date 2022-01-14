@@ -102,7 +102,7 @@ function buildAndShowHomeHTML (categories) {
       // variable's name implies it expects.
       var rndmCat = chooseRandomCategory(categories)
       console.log(rndmCat)
-      var chosenCategoryShortName = categories.short_name[chooseRandomCategory(categories)]
+      var chosenCategoryShortName = categories.short_name[rndmCat]
       console.log(chosenCategoryShortName)
 
 
